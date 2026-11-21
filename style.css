@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, sans-serif; 
+    background-color: #0F172A;
+    color:white;
+    margin: 0;  
+    padding: 20px;
+}
+
+.clock{
+    max-width: 420px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card{
+    background-color: #1E293B;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#time{
+    font-size: 50px;
+    font-weight: bold;
+    color: #38bdf8;
+}
+
+#date{
+    margin-top: 10px;
+    color: #cbd5e1;
+}
+
+input{
+    width: 80px;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#timer{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+
+.message{
+    min-height: 24px;  
+    color: #cbd5e1;
+}
+
+button{
+    background-color: #38bdf8;
+    color: #0f172a;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #7dd3fc;
+}
+
+button:active{
+    background: rgb(113, 207, 113);
+}

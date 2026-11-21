@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock Timer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="clock">
+        <h1>Clock &amp; Timer</h1>
+        <div class="card">
+            <h2>Digital Clock</h2>
+            <div id="time">00:00:00 AM</div>
+            <div id="date">Monday, 01 January 2026</div>
+        </div>
+        <div class="Timer card">
+            <h2>Countdown Timer</h2>
+            <label for="minutes">Minutes: </label>
+            <input type="number" name="minutes" id="minutes" value="1" min="1">
+            <div id="timer">01 : 00</div>
+            <p class="message">Hello</p>
+            <div class="btns">
+                <button id="startBtn">Start</button>
+                <button id="pauseBtn">Pause</button>
+                <button id="resetBtn">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
